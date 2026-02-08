@@ -15,10 +15,9 @@
     "serve": "^14.2.5",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-  "start": "react-scripts start",
+ "scripts": {
   "build": "react-scripts build",
-  "prod": "serve -s build -l $PORT"
+  "start": "npx serve -s build -l $PORT"
 }
 ,
   "eslintConfig": {
